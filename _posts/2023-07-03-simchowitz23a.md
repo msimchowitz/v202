@@ -5,9 +5,9 @@ abstract: This paper studies the prediction of a target $\mathbf{z}$ from a pair
   random variables $(\mathbf{x},\mathbf{y})$, where the ground-truth predictor is
   additive $\mathbb{E}[\mathbf{z} \mid \mathbf{x},\mathbf{y}] = f_\star(\mathbf{x})
   +g_{\star}(\mathbf{y})$. We study the performance of empirical risk minimization
-  (ERM) over functions $f+g$, $f \in \mathcal{F}$ and $g \in \mathcal{G}$, fit on
+  (ERM) over functions $f+g$, $f \in F$ and $g \in G$, fit on
   a given training distribution, but evaluated on a test distribution which exhibits
-  covariate shift. We show that, when the class $\mathcal{F}$ is "simpler" than $\mathcal{G}$
+  covariate shift. We show that, when the class $F$ is "simpler" than $G$
   (measured, e.g., in terms of its metric entropy), our predictor is more resilient
   to <em>heterogeneous covariate shifts</em> in which the shift in $\mathbf{x}$ is
   much greater than that in $\mathbf{y}$. These results rely on a novel Hölder style
